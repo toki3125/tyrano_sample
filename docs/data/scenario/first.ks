@@ -1,46 +1,67 @@
 *start
 
-[title name="走るか寝るかするメロス"]
+[title name="俳句の才能アリ？ナシ？診断"]
 [hidemenubutton]
 [wait time=200]
 [freeimage layer="base"]
 
-「走るか寝るかするメロス」[l][r]
+「俳句の才能アリ？ナシ？診断」[l][r]
 
-メロスは激怒した。[l][r]
+適切な下の句を選んで俳句の才能を診断しよう。[l][r]
 
-必ず、かの邪智暴虐の王を除かねばならぬと決意した。[l][r]
+ここで、一句。[l][r]
 
-(中略)[l][r]
+名月や[r]
+池をめぐりて[l][r]
 
-ああ、何もかも、ばかばかしい。私は、醜い裏切り者だ。どうとも、勝手にするがよい。やんぬる哉。[l][r]
-メロスは...[l][r]
 
-[link target=*tag_sleep] →寝る [endlink][r]
-[link target=*tag_run] →走る [endlink][r]
+[link target=*tag_momiji] →紅葉かな [endlink][r]
+[link target=*tag_yomosugara] →夜もすがら [endlink][r]
+[link target=*tag_minamo] →水面見る　[endlink][r]
 [s]
 
-*tag_sleep
+*tag_momiji
 
 [cm]
 
-[bg storage=sleep.jpg time=500]
+[bg storage=pose_dance_ukareru_man.png time=500]
 
-メロスは死んだように深く眠った。[l][r]
-勇者は、ひどく赤面した。[r]
+「名月」も「紅葉」も秋の季語。[l][r]
+1句に季語が2つ以上入る「季重なり」を避けるのは基本中の基本。[l][r]
+この句の査定は...[l][r]
 
-【 BAD END 】[l][cm]
+【 才能ナシ！ 】[l][cm]
 
 [jump target=*start]
 
-*tag_run
+*tag_yomosugara
 
-[bg storage=run.jpg time=500]
+[bg storage=matsuo_basyo.png time=500]
 
 [cm]
-メロスは黒い風のように走った。[l][r]
-陽は、ゆらゆら地平線に没し、まさに最後の一片の残光も、消えようとした時、メロスは疾風の如く刑場に突入した。間に合った。[r]
+名月を鑑賞しながら池を巡り歩き、[r]
+ついには夜を明かしてしまったという句。[l][r]
+風流心を時間経過とともに写実的に描くことができている。[l][r]
+ちなみにこれは、かの松尾芭蕉の句である。[r]
+この句の査定は...[l][r]
 
-【 GOOD END 】[l][cm]
+
+【 才能アリ！ 】[l][cm]
+
+[jump target=*start]
+
+*tag_minamo
+
+[bg storage=haiku.png time=500]
+
+[cm]
+池を巡り歩き、名月を鑑賞すると思いきや[r]
+水面に映る月を見ているという句。[l][r]
+風流ではあるが、「水面に映る月」を描いた句はとても多く、[r]
+この表現では陳腐な発想の領域を出られない。[l][r]
+この句の査定は...[l][r]
+
+
+【 凡人！ 】[l][cm]
 
 [jump target=*start]
